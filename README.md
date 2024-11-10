@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/student-grievance-system.git
 
 ### 2️⃣ Set Up the MySQL Database
 
-1. Create a new database called `grievance_system`:
+1. Create a new database called `student_grievance_system`:
 
    ```sql
    CREATE DATABASE student_grievance_system;
