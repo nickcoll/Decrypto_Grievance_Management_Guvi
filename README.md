@@ -1,7 +1,7 @@
 
-
-```markdown
 # Student Grievance Management System
+```markdown
+
 
 A **Student Grievance Management System** that allows students to submit grievances, track their status, and manage the grievance lifecycle. This project is developed using **Java**, **Maven**, and connected to a **MySQL** database for backend storage.
 
