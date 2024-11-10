@@ -1,4 +1,4 @@
-Here is the complete `README.md` content in a single code block for easy copying:
+
 
 ```markdown
 # Student Grievance Management System
