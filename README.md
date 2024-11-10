@@ -16,7 +16,6 @@ A **Student Grievance Management System** that allows students to submit grievan
 - **Maven**: Project management tool for building and managing dependencies.
 - **MySQL**: Relational database to store student and grievance records.
 - **JDBC**: Java Database Connectivity for database interactions.
-- **Servlets/JSP** (Optional): If the web interface is implemented, servlets handle requests and JSP renders views.
 
 ## 🚀 Getting Started
 
