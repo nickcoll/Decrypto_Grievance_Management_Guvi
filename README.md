@@ -186,7 +186,12 @@ student-grievance-system/
 </body>
 </html>
 
-![Grievance Submission Form](grievance_form_screenshot.png)
+## 🎨 Frontend Interface Preview
+
+Here is a preview of the frontend for the **Student Grievance Management System**.
+
+![Grievance Submission Form](grievance_form_screenshot.png.png)
+
 
 
 ## 🤝 How to Contribute
