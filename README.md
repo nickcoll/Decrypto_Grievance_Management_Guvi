@@ -115,6 +115,78 @@ student-grievance-system/
 └── README.md                        # Project readme (this file)
 ```
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grievance Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Submit a Grievance</h2>
+        <form id="grievance-form">
+            <div class="mb-3">
+                <label for="studentName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="studentName" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="grievanceDescription" class="form-label">Grievance Description</label>
+                <textarea class="form-control" id="grievanceDescription" rows="4" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="issueType" class="form-label">Issue Type</label>
+                <select class="form-select" id="issueType" required>
+                    <option value="">Select an issue</option>
+                    <option value="Academic">Academic</option>
+                    <option value="Administrative">Administrative</option>
+                    <option value="Infrastructure">Infrastructure</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Grievance</button>
+        </form>
+
+        <hr>
+
+        <h3>Grievance Status</h3>
+        <form id="status-form">
+            <div class="mb-3">
+                <label for="grievanceID" class="form-label">Grievance ID</label>
+                <input type="text" class="form-control" id="grievanceID" placeholder="Enter your grievance ID" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Check Status</button>
+        </form>
+
+        <div id="status-result" class="mt-3"></div>
+    </div>
+
+    <script>
+        document.getElementById('grievance-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Grievance Submitted!');
+        });
+
+        document.getElementById('status-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var grievanceID = document.getElementById('grievanceID').value;
+            document.getElementById('status-result').innerHTML = `<p>Status for Grievance ID ${grievanceID}: <strong>Under Review</strong></p>`;
+        });
+    </script>
+</body>
+</html>
+
+
 ## 🤝 How to Contribute
 
 We welcome contributions to improve the system! To contribute:
