@@ -186,6 +186,8 @@ student-grievance-system/
 </body>
 </html>
 
+![Grievance Submission Form](grievance_form_screenshot.png)
+
 
 ## 🤝 How to Contribute
 
